@@ -1,0 +1,7 @@
+<button [routerLink]="'/reno/hybrid'">HIBRIDO</button>
+<button [routerLink]="'/reno/electric'">ELECTRICO</button>
+<button [routerLink]="'/noreno/diesel'">DIESEL</button>
+<button [routerLink]="'/noreno/gas'">GASOLINA</button>
+<div *ngFor="let user of usersList">
+    {{user.first_name}} {{user.last_name}} {{user.age}} {{user.modelo}}
+</div>
